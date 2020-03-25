@@ -1,0 +1,33 @@
+PODS:
+  - EFCountingLabel (5.0.0)
+  - IQKeyboardManagerSwift (6.4.0)
+  - SwiftFireworks (0.1.0)
+  - SwiftGifOrigin (1.7.0)
+  - SwiftyJSON (5.0.0)
+
+DEPENDENCIES:
+  - EFCountingLabel
+  - IQKeyboardManagerSwift (~> 6.4)
+  - SwiftFireworks
+  - SwiftGifOrigin (~> 1.7)
+  - SwiftyJSON
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - EFCountingLabel
+    - IQKeyboardManagerSwift
+    - SwiftFireworks
+  trunk:
+    - SwiftGifOrigin
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  EFCountingLabel: c25faa62a975f8ef9b2cb0928e8675520e8e2739
+  IQKeyboardManagerSwift: ed9b04ee0e3067ffba543283462d619f944b05e5
+  SwiftFireworks: 63447e004fea5db5856a56065f4f0d2df23715b1
+  SwiftGifOrigin: fbd6cf37afcfcf97a5c3db996ddc0492e5c5c145
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+
+PODFILE CHECKSUM: 01ea30ef13929ab097f19e5c3854c03c00f15cad
+
+COCOAPODS: 1.8.4

@@ -1,0 +1,6 @@
+framework module Pods_Love_Test_New {
+  umbrella header "Pods-Love Test New-umbrella.h"
+
+  export *
+  module * { export * }
+}

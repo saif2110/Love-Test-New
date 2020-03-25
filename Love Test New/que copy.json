@@ -1,0 +1,137 @@
+Question1
+  Qus = What is john's favorite color ?
+  answer s[] = Yellow,Red,Black,Pink,White,Green,Blue,Purple,Other
+
+Question2
+  Qus = What is john's favorite flavor of ice cream ?
+  answer s[] = Vanilla,Chocolate,Strawberry,Butterscotch,Caramel,Almond,Mango,Other
+
+Question3
+  Qus = Name a country john would love to visit ?
+  answer s[] = Greenland,Switzerland,Italy,India,United States,Canada,Dubai,Other
+
+Question4
+  Qus = What is john's favorite wild animal ?
+  answer s[] = Lion,Rhinoceros,Elephant,Bear,Cheetah,Giraffe,Tiger,Zebra,Other
+
+Question5
+  Qus = Does john prefer Cat or Dog ?
+  answer s[] = Cat,Dog,None
+
+Question6
+  Qus = What is john's number-one fear ?
+  answer s[] = Ghost,Any Animal,Loneliness,Death,Social Phobia,Getting old
+
+Question7
+  Qus = What is john's favorite Hollywood movie ?
+  answer s[] = Avatar,Inception,Joker,Titanic,300,Avengers,Star Wars,Shawshank redemption,Twilight,Frozen,Dark Knight,Other
+
+Question8
+  Qus = Who is john's favorite Hollywood male actor ?
+  answer s[] = Tom Hardy,Johnny Depp,Robert Downey,Al Pacino,Leonardo DiCaprio,Mark Wahlberg,Dwayne Johnson,Keanu Reeves,Hugh Jackman,Will Smith,Tom Cruise,Other
+
+Question9
+  Qus = What is john's favorite food ?
+  answer s[] = Pizza,Fried Chicken,Burger,Steak,Taco,Pasta,Biryani,Lasagna,Chinese,Other
+
+Question10
+  Qus = What is john's shoe size ?
+  answer s[] = 6/35,7/38,8/39,9/40,10/41,11/42
+
+Question11
+  Qus = What is john's favorite sport ?
+  answer s[] = Football,Cricket,Hockey,Tennis,Baseball,Basketball,Volleyball,NFL,Other
+
+Question12
+  Qus = Who is john's favorite female hollywood singer ?
+  answer s[] = Katy Perry,Taylor Swift,Rihanna,Jennifer Lopez,Lady Gaga,Shakira,Selena Gomez,Madonna,Other
+
+Question13
+  Qus = Does john have any allergies ?
+  answer s[] = Yes,No
+
+Question14
+  Qus = What is john's zodiac sign ?
+  answer s[] = Aquarius,Pisces,Aries,Taurus,Gemini,Cancer,leo,Virgo,Libra,Scorpio,Sagittarius,Capricorn
+
+Question15
+  Qus = What Does john prefer Mac, Windows or Linux ?
+  answer s[] = Mac,Windows,Linux
+
+Question16
+  Qus = What Does john prefer Android, iOS?
+  answer s[] = Android,iOS
+
+Question17
+  Qus = What superpower would john choose??
+  answer s[] = Flying,Invisibility,Immortal,Telepathy,Teleportation,X-ray vision,Time travel,Martial arts,Other
+
+Question18
+  Qus = If john could be a superhero, what would john choose?
+  answer s[] = Superman,Batman,Iron Man,Super Woman,Spiderman,Hulk,Thor,Black Widow,Flash,Wolverine,Other
+
+Question19
+  Qus = What Does john like to relax?
+  answer s[] = Sit Home,Watch Movie,Video Game,Cooking,Painting,Sleep,Yoga,Chit Chat,Other
+
+Question20
+  Qus = What sleeping position does john prefer ?
+  answer s[] = Back,Right Side,Left Side,Stomach
+
+Question21
+  Qus = What sleeping position does john prefer ?
+  answer s[] = Back,Right Side,Left Side,Stomach
+
+Question22
+  Qus = Who is john's favorite male hollywood singer ?
+  answer s[] = Michael Jackson,Adam Levine,Drake,Chris Brown,Justin Bieber,Zayn Malik,Eminem,Ed Sheeran,Pitbull,A.R Rehman,Enrique Iglesias,Justin Timberlake,Other
+
+Question23
+  Qus = Who is john's favorite Hollywood female actress ?
+  answer s[] = Scarlett Johansson,Jennifer Lawrence,Angelina Jolie,Nicole Kidman,Emma Stone,Julia Roberts,Anne Hathaway,Emma Watson,Charlize Theron,Mila Kunis,Gal Gadot,Salma Hayek,Other
+
+Question24
+  Qus = What is john's favorite chips flavor ?
+  answer s[] = Cheese,Salt,Cream&Onion,Barbecue,Tomato,Spicy,Ruffles Cheddar,Chilli,Plain,Other
+
+Question25
+  Qus = Do john have any allergies ?
+  answer s[] = Yes,No
+
+Question26
+  Qus = Do john normally finish things as soon as possible or do I leave them for the last minute ?
+  answer s[] = ASAP,Last Minute,Forgot
+
+Question27
+  Qus = Which day did you guys meet for the first time ?
+  answer s[] = Sunday,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday
+
+Question28
+  Qus = Who said I love you first ?
+  answer s[] = Me,You
+
+Question29
+  Qus = What is john's favourite type of holiday ?
+  answer s[] = Relaxing Home,Hiking,Spa,Pool,Party,Cooking,Gardening,Other
+
+Question30
+  Qus =  What is john's favourite type of chocolate ?
+  answer s[] = Normal,Dark,White,Hate chocolate
+
+Question31
+  Qus =  What is john's favourite season ?
+  answer s[] = Spring,Summer,Fall,Winter,Monsoon
+
+Question32
+  Qus = What is john's favourite body part of you is?
+  answer s[] = My Eyes,My Smile,My Chest,My legs,My Face,My Ears,My Nose,My Stomach
+
+Question33
+  Qus =  What is john's favourite hot drink?
+  answer s[] = Tea,Coffee,Hot chocolate,Other
+
+Question34
+  Qus =  Does john believe in god from heart ?
+  answer s[] = Yes,No,Little Bit
+
+
