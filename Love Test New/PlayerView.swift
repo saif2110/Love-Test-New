@@ -9,23 +9,23 @@
 import Foundation
 import SwiftGifOrigin
 import UIKit
+import SwiftySound
 
 class PlayerView: UIView,UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout{
     var answeris = ""
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        
         return optionArray.count
     }
-    
+
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "Options", for: indexPath) as! Options
         cell.button.setTitle("  "+optionArray[indexPath.row]+"  ", for: .normal)
         cell.button.addTarget(self, action: #selector(selecto(sender:)), for: .touchUpInside)
         return cell
-        
     }
     
     @objc func selecto(sender:UIButton) {
+        Sound.play(file: "pop.mp3")
         selectedAnswer = sender.titleLabel!.text!
         answeris = sender.titleLabel!.text!
         NotificationCenter.default.post(name: NSNotification.Name("Answerd"), object: nil)
@@ -34,8 +34,6 @@ class PlayerView: UIView,UICollectionViewDelegate,UICollectionViewDataSource,UIC
     func answerIS()->String {
         return answeris
     }
-    
-    
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         let collectionViewWidth = collectionView.bounds.width
@@ -54,7 +52,6 @@ class PlayerView: UIView,UICollectionViewDelegate,UICollectionViewDataSource,UIC
         optionArray = array
     }
     
-    
     func enableWait(trueFlase:Bool = false){
         if trueFlase {
             question.removeFromSuperview()
@@ -63,16 +60,14 @@ class PlayerView: UIView,UICollectionViewDelegate,UICollectionViewDataSource,UIC
             self.addSubview(wait)
             wait.translatesAutoresizingMaskIntoConstraints = false
             NSLayoutConstraint.activate([
-                wait.topAnchor.constraint(equalTo:self.topAnchor,constant: 100),
-                wait.leadingAnchor.constraint(equalTo:self.leadingAnchor,constant: 100),
-                wait.trailingAnchor.constraint(equalTo:self.trailingAnchor,constant: -100),
-                wait.bottomAnchor.constraint(equalTo:self.bottomAnchor,constant: -100)
+                wait.topAnchor.constraint(equalTo:self.topAnchor,constant: 130),
+                wait.leadingAnchor.constraint(equalTo:self.leadingAnchor,constant: 130),
+                wait.trailingAnchor.constraint(equalTo:self.trailingAnchor,constant: -130),
+                wait.bottomAnchor.constraint(equalTo:self.bottomAnchor,constant: -130)
             ])
         }else{
             wait.removeFromSuperview()
             addCusatomView()
-            
-            
         }
     }
     
@@ -127,8 +122,6 @@ class PlayerView: UIView,UICollectionViewDelegate,UICollectionViewDataSource,UIC
         let layout:UICollectionViewFlowLayout = UICollectionViewFlowLayout.init()
         que.allowsMultipleSelection = false
         layout.scrollDirection = .vertical
-        //layout.sectionInset = UIEdgeInsets(top: 5, left: 0, bottom: 5, right: 5)
-        //layout.itemSize = CGSize(width: self.bounds.width/4, height: self.bounds.height/4)
         layout.minimumInteritemSpacing = 5
         layout.minimumLineSpacing = 5
         que.collectionViewLayout = layout

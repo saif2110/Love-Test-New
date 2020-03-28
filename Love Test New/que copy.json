@@ -99,7 +99,7 @@ Question25
   answer s[] = Yes,No
 
 Question26
-  Qus = Do john normally finish things as soon as possible or do I leave them for the last minute ?
+  Qus = Do john normally finish things as soon as possible or leave them for the last minute ?
   answer s[] = ASAP,Last Minute,Forgot
 
 Question27
@@ -107,8 +107,8 @@ Question27
   answer s[] = Sunday,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday
 
 Question28
-  Qus = Who said I love you first ?
-  answer s[] = Me,You
+  Qus = Which day did you guys propose for the first time ?
+  answer s[] = Sunday,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday
 
 Question29
   Qus = What is john's favourite type of holiday ?
@@ -123,7 +123,7 @@ Question31
   answer s[] = Spring,Summer,Fall,Winter,Monsoon
 
 Question32
-  Qus = What is john's favourite body part of you is?
+  Qus = What is john's favourite body part of you ?
   answer s[] = My Eyes,My Smile,My Chest,My legs,My Face,My Ears,My Nose,My Stomach
 
 Question33
@@ -133,5 +133,9 @@ Question33
 Question34
   Qus =  Does john believe in god from heart ?
   answer s[] = Yes,No,Little Bit
+
+Question35
+  Qus =  Which day did you guys exchange phone number ?
+  answer s[] = Sunday,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday
 
 

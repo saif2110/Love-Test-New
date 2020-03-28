@@ -6,8 +6,18 @@
 	<dict>
 		<key>Love Test New.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>6</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>5C73A6BC2333FFF100052C2F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

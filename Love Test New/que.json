@@ -320,7 +320,7 @@
     ]
   },
   "Question26": {
-    "Qus": "Do john normally finish things as soon as possible or do I leave them for the last minute ?",
+    "Qus": "Do john normally finish things as soon as possible or leave them for the last minute ?",
     "answer": [
       "ASAP",
       "Last Minute",
@@ -340,10 +340,15 @@
     ]
   },
   "Question28": {
-    "Qus": "Who said I love you first ?",
+    "Qus": "Which day did you guys propose for the first time ?",
     "answer": [
-      "Me",
-      "You"
+      "Sunday",
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
     ]
   },
   "Question29": {
@@ -379,7 +384,7 @@
     ]
   },
   "Question32": {
-    "Qus": "What is john's favourite body part of you is ?",
+    "Qus": "What is john's favourite body part of you ?",
     "answer": [
       "My Eyes",
       "My Smile",
@@ -406,6 +411,18 @@
       "Yes",
       "No",
       "Little Bit"
+    ]
+  },
+  "Question35": {
+    "Qus": "Which day did you guys exchange phone number ?",
+    "answer": [
+      "Sunday",
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
     ]
   }
 }

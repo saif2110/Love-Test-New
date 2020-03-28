@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SwiftySound
 
 var selectedAge = ""
 var selectedGender = ""
@@ -59,6 +60,7 @@ class ViewController: UIViewController {
     
     
     @IBAction func allButs(_ sender: UIButton) {
+         Sound.play(file: "pop.mp3")
         if sender.tag == 0 {
         Button(ButtontobeSelected: but1)
             
@@ -71,11 +73,14 @@ class ViewController: UIViewController {
     
     @objc func menBut(){
         Image(imagetobeSelected: man, imagetobeDeselected: female)
+        Sound.play(file: "pop.mp3")
+        
     }
 
     
     @objc func womenBut(){
-                Image(imagetobeSelected: female, imagetobeDeselected: man)
+        Image(imagetobeSelected: female, imagetobeDeselected: man)
+         Sound.play(file: "pop.mp3")
     }
     
     

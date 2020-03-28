@@ -8,22 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		5C083D972338AC440081CFAA /* NameingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C083D962338AC440081CFAA /* NameingController.swift */; };
-		5C083D992338DF690081CFAA /* algo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C083D982338DF690081CFAA /* algo.swift */; };
 		5C197ACE233908B4005AB83A /* LoveCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C197ACD233908B4005AB83A /* LoveCalculator.swift */; };
 		5C6B23A3233A3EE4003068EF /* (null) in Embed Frameworks */ = {isa = PBXBuildFile; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		5C73A6C12333FFF100052C2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C73A6C02333FFF100052C2F /* AppDelegate.swift */; };
-		5C73A6C32333FFF100052C2F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C73A6C22333FFF100052C2F /* SceneDelegate.swift */; };
 		5C73A6C52333FFF100052C2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C73A6C42333FFF100052C2F /* ViewController.swift */; };
 		5C73A6C82333FFF100052C2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C73A6C62333FFF100052C2F /* Main.storyboard */; };
 		5C73A6CD2333FFF600052C2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C73A6CB2333FFF600052C2F /* LaunchScreen.storyboard */; };
+		5CB000CE242F670B001B9E2C /* StartScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB000CD242F670B001B9E2C /* StartScreenVC.swift */; };
+		5CB53127242F9268006E4F13 /* firework.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5CB53120242F9268006E4F13 /* firework.mp3 */; };
+		5CB53128242F9268006E4F13 /* coin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5CB53121242F9268006E4F13 /* coin.mp3 */; };
+		5CB53129242F9268006E4F13 /* pop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5CB53122242F9268006E4F13 /* pop.mp3 */; };
+		5CB5312B242F9268006E4F13 /* clap.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5CB53124242F9268006E4F13 /* clap.wav */; };
+		5CB5312C242F9268006E4F13 /* wrong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5CB53125242F9268006E4F13 /* wrong.mp3 */; };
+		5CB5312D242F9268006E4F13 /* correct.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5CB53126242F9268006E4F13 /* correct.mp3 */; };
+		5CB5312F242F92D7006E4F13 /* bg.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5CB5312E242F92D7006E4F13 /* bg.mp3 */; };
 		5CC8C5F224291E6800038078 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC8C5F124291E6800038078 /* PlayerView.swift */; };
 		5CC8C5F52429400200038078 /* Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC8C5F32429400200038078 /* Options.swift */; };
 		5CC8C5F62429400200038078 /* Options.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CC8C5F42429400200038078 /* Options.xib */; };
 		5CC8C5F8242A529100038078 /* que.json in Resources */ = {isa = PBXBuildFile; fileRef = 5CC8C5F7242A529000038078 /* que.json */; };
 		5CC8C5FA242A52AF00038078 /* que copy.json in Resources */ = {isa = PBXBuildFile; fileRef = 5CC8C5F9242A52AF00038078 /* que copy.json */; };
 		5CE7212A242BA35A00645B57 /* wait.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5CE72129242BA35A00645B57 /* wait.gif */; };
+		5CE7212E242BE1A300645B57 /* MainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE7212D242BE1A300645B57 /* MainModel.swift */; };
 		5CF8BF7E2428BC0B004690E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CF8BF7D2428BC0B004690E7 /* Assets.xcassets */; };
 		5CF8BF802428FBB6004690E7 /* gameEngVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF8BF7F2428FBB6004690E7 /* gameEngVC.swift */; };
+		5CFC3540242CFE8E00FA7D1C /* RightWrong.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFC353E242CFE8E00FA7D1C /* RightWrong.swift */; };
+		5CFC3541242CFE8E00FA7D1C /* RightWrong.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CFC353F242CFE8E00FA7D1C /* RightWrong.xib */; };
 		D20A93088C13C6A729EC749A /* Pods_Love_Test_New.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D6D20B57E2A2D0420ACE957 /* Pods_Love_Test_New.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,23 +52,32 @@
 
 /* Begin PBXFileReference section */
 		5C083D962338AC440081CFAA /* NameingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameingController.swift; sourceTree = "<group>"; };
-		5C083D982338DF690081CFAA /* algo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = algo.swift; sourceTree = "<group>"; };
 		5C197ACD233908B4005AB83A /* LoveCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoveCalculator.swift; sourceTree = "<group>"; };
 		5C73A6BD2333FFF100052C2F /* Love Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Love Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C73A6C02333FFF100052C2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5C73A6C22333FFF100052C2F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5C73A6C42333FFF100052C2F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5C73A6C72333FFF100052C2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5C73A6CC2333FFF600052C2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C73A6CE2333FFF600052C2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CB000CD242F670B001B9E2C /* StartScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScreenVC.swift; sourceTree = "<group>"; };
+		5CB53120242F9268006E4F13 /* firework.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = firework.mp3; sourceTree = "<group>"; };
+		5CB53121242F9268006E4F13 /* coin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = coin.mp3; sourceTree = "<group>"; };
+		5CB53122242F9268006E4F13 /* pop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pop.mp3; sourceTree = "<group>"; };
+		5CB53124242F9268006E4F13 /* clap.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = clap.wav; sourceTree = "<group>"; };
+		5CB53125242F9268006E4F13 /* wrong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wrong.mp3; sourceTree = "<group>"; };
+		5CB53126242F9268006E4F13 /* correct.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = correct.mp3; sourceTree = "<group>"; };
+		5CB5312E242F92D7006E4F13 /* bg.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bg.mp3; sourceTree = "<group>"; };
 		5CC8C5F124291E6800038078 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
 		5CC8C5F32429400200038078 /* Options.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Options.swift; sourceTree = "<group>"; };
 		5CC8C5F42429400200038078 /* Options.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Options.xib; sourceTree = "<group>"; };
 		5CC8C5F7242A529000038078 /* que.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = que.json; sourceTree = "<group>"; };
 		5CC8C5F9242A52AF00038078 /* que copy.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "que copy.json"; sourceTree = "<group>"; };
 		5CE72129242BA35A00645B57 /* wait.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = wait.gif; sourceTree = "<group>"; };
+		5CE7212D242BE1A300645B57 /* MainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModel.swift; sourceTree = "<group>"; };
 		5CF8BF7D2428BC0B004690E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5CF8BF7F2428FBB6004690E7 /* gameEngVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gameEngVC.swift; sourceTree = "<group>"; };
+		5CFC353E242CFE8E00FA7D1C /* RightWrong.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightWrong.swift; sourceTree = "<group>"; };
+		5CFC353F242CFE8E00FA7D1C /* RightWrong.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RightWrong.xib; sourceTree = "<group>"; };
 		5D6D20B57E2A2D0420ACE957 /* Pods_Love_Test_New.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Love_Test_New.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBAC3E759CA62685FBAEF1D7 /* Pods-Love Test New.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Love Test New.debug.xcconfig"; path = "Target Support Files/Pods-Love Test New/Pods-Love Test New.debug.xcconfig"; sourceTree = "<group>"; };
 		FCC47F8C7B99172C6061109F /* Pods-Love Test New.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Love Test New.release.xcconfig"; path = "Target Support Files/Pods-Love Test New/Pods-Love Test New.release.xcconfig"; sourceTree = "<group>"; };
@@ -107,25 +125,50 @@
 		5C73A6BF2333FFF100052C2F /* Love Test New */ = {
 			isa = PBXGroup;
 			children = (
+				5CB5311F242F9268006E4F13 /* AllMP3 */,
+				5CB000CF242F6745001B9E2C /* Allvcs */,
 				5CE72129242BA35A00645B57 /* wait.gif */,
 				5CC8C5F9242A52AF00038078 /* que copy.json */,
 				5CC8C5F7242A529000038078 /* que.json */,
 				5C73A6C02333FFF100052C2F /* AppDelegate.swift */,
-				5C73A6C22333FFF100052C2F /* SceneDelegate.swift */,
 				5CF8BF7D2428BC0B004690E7 /* Assets.xcassets */,
 				5C73A6C62333FFF100052C2F /* Main.storyboard */,
 				5C73A6CB2333FFF600052C2F /* LaunchScreen.storyboard */,
-				5C083D982338DF690081CFAA /* algo.swift */,
-				5C73A6C42333FFF100052C2F /* ViewController.swift */,
-				5C083D962338AC440081CFAA /* NameingController.swift */,
-				5CF8BF7F2428FBB6004690E7 /* gameEngVC.swift */,
-				5C197ACD233908B4005AB83A /* LoveCalculator.swift */,
 				5CC8C5F124291E6800038078 /* PlayerView.swift */,
 				5CC8C5F32429400200038078 /* Options.swift */,
 				5CC8C5F42429400200038078 /* Options.xib */,
 				5C73A6CE2333FFF600052C2F /* Info.plist */,
+				5CE7212D242BE1A300645B57 /* MainModel.swift */,
+				5CFC353E242CFE8E00FA7D1C /* RightWrong.swift */,
+				5CFC353F242CFE8E00FA7D1C /* RightWrong.xib */,
 			);
 			path = "Love Test New";
+			sourceTree = "<group>";
+		};
+		5CB000CF242F6745001B9E2C /* Allvcs */ = {
+			isa = PBXGroup;
+			children = (
+				5CB000CD242F670B001B9E2C /* StartScreenVC.swift */,
+				5C73A6C42333FFF100052C2F /* ViewController.swift */,
+				5C083D962338AC440081CFAA /* NameingController.swift */,
+				5CF8BF7F2428FBB6004690E7 /* gameEngVC.swift */,
+				5C197ACD233908B4005AB83A /* LoveCalculator.swift */,
+			);
+			path = Allvcs;
+			sourceTree = "<group>";
+		};
+		5CB5311F242F9268006E4F13 /* AllMP3 */ = {
+			isa = PBXGroup;
+			children = (
+				5CB53120242F9268006E4F13 /* firework.mp3 */,
+				5CB53121242F9268006E4F13 /* coin.mp3 */,
+				5CB5312E242F92D7006E4F13 /* bg.mp3 */,
+				5CB53122242F9268006E4F13 /* pop.mp3 */,
+				5CB53124242F9268006E4F13 /* clap.wav */,
+				5CB53125242F9268006E4F13 /* wrong.mp3 */,
+				5CB53126242F9268006E4F13 /* correct.mp3 */,
+			);
+			path = AllMP3;
 			sourceTree = "<group>";
 		};
 		9716BE5316D463FA3495F0E5 /* Frameworks */ = {
@@ -197,11 +240,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CB53129242F9268006E4F13 /* pop.mp3 in Resources */,
 				5CC8C5F62429400200038078 /* Options.xib in Resources */,
+				5CB53127242F9268006E4F13 /* firework.mp3 in Resources */,
 				5C73A6CD2333FFF600052C2F /* LaunchScreen.storyboard in Resources */,
+				5CB5312B242F9268006E4F13 /* clap.wav in Resources */,
+				5CB5312F242F92D7006E4F13 /* bg.mp3 in Resources */,
+				5CFC3541242CFE8E00FA7D1C /* RightWrong.xib in Resources */,
 				5CF8BF7E2428BC0B004690E7 /* Assets.xcassets in Resources */,
 				5CC8C5F8242A529100038078 /* que.json in Resources */,
 				5CE7212A242BA35A00645B57 /* wait.gif in Resources */,
+				5CB5312C242F9268006E4F13 /* wrong.mp3 in Resources */,
+				5CB5312D242F9268006E4F13 /* correct.mp3 in Resources */,
+				5CB53128242F9268006E4F13 /* coin.mp3 in Resources */,
 				5C73A6C82333FFF100052C2F /* Main.storyboard in Resources */,
 				5CC8C5FA242A52AF00038078 /* que copy.json in Resources */,
 			);
@@ -256,15 +307,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CB000CE242F670B001B9E2C /* StartScreenVC.swift in Sources */,
 				5C73A6C52333FFF100052C2F /* ViewController.swift in Sources */,
 				5C197ACE233908B4005AB83A /* LoveCalculator.swift in Sources */,
 				5C083D972338AC440081CFAA /* NameingController.swift in Sources */,
 				5CC8C5F224291E6800038078 /* PlayerView.swift in Sources */,
+				5CFC3540242CFE8E00FA7D1C /* RightWrong.swift in Sources */,
 				5CC8C5F52429400200038078 /* Options.swift in Sources */,
 				5C73A6C12333FFF100052C2F /* AppDelegate.swift in Sources */,
-				5C73A6C32333FFF100052C2F /* SceneDelegate.swift in Sources */,
 				5CF8BF802428FBB6004690E7 /* gameEngVC.swift in Sources */,
-				5C083D992338DF690081CFAA /* algo.swift in Sources */,
+				5CE7212E242BE1A300645B57 /* MainModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,10 +392,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -394,7 +446,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -413,7 +465,7 @@
 				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 959YZPX78D;
 				INFOPLIST_FILE = "Love Test New/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -421,7 +473,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Love-Test-New";
 				PRODUCT_NAME = "Love Test";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "arm64 arm64e x86_64 armv7 armv7s armv7-apple-ios";
 			};
 			name = Debug;
 		};
@@ -434,7 +487,7 @@
 				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 959YZPX78D;
 				INFOPLIST_FILE = "Love Test New/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -442,7 +495,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Love-Test-New";
 				PRODUCT_NAME = "Love Test";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "arm64 arm64e armv7 armv7s x86_64 armv7-apple-ios";
 			};
 			name = Release;
 		};
